@@ -30,8 +30,10 @@ RTX GPU + Ollama, no cloud bill required.
 ### 🌱 Open source
 
 I contribute where I have real expertise — **RAG, evaluation, local inference tooling**.
-See pinned PRs for the latest. Currently improving evaluation ergonomics in
-the agent/RAG ecosystem.
+
+- **DSPy** — [#9912](https://github.com/stanfordnlp/dspy/pull/9912): expose `timeout`/`straggler_limit`
+  on `dspy.Evaluate` and harden the parallel straggler-resubmission path for long-running
+  evaluations.
 
 ---
 
