@@ -39,6 +39,11 @@ I contribute where I have real expertise — **RAG, evaluation, local inference 
 - **LangChain** — [#38131](https://github.com/langchain-ai/langchain/pull/38131): make
   `ChatHuggingFace.with_structured_output` return Pydantic instances (not plain dicts) for
   `json_schema` / `json_mode`, matching the documented behavior.
+- **Haystack** — [#11618](https://github.com/deepset-ai/haystack/pull/11618) (TopPSampler integer
+  scores & `top_p=0.0` override), [#11619](https://github.com/deepset-ai/haystack/pull/11619)
+  (BM25 `ZeroDivisionError` on a tokenless corpus),
+  [#11617](https://github.com/deepset-ai/haystack/pull/11617) /
+  [#11616](https://github.com/deepset-ai/haystack/pull/11616) (telemetry decorator & throttle fixes).
 
 ---
 
