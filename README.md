@@ -46,6 +46,9 @@ I contribute where I have real expertise — **RAG, evaluation, local inference 
   (BM25 `ZeroDivisionError` on a tokenless corpus),
   [#11617](https://github.com/deepset-ai/haystack/pull/11617) /
   [#11616](https://github.com/deepset-ai/haystack/pull/11616) (telemetry decorator & throttle fixes).
+- **LiteLLM** — [#30375](https://github.com/BerriAI/litellm/pull/30375) (numeric sort of tiered
+  token-cost thresholds), [#30376](https://github.com/BerriAI/litellm/pull/30376) (download &
+  base64-encode remote image URLs for `ollama_chat`).
 
 ---
 
