@@ -49,6 +49,10 @@ I contribute where I have real expertise — **RAG, evaluation, local inference 
 - **LiteLLM** — [#30375](https://github.com/BerriAI/litellm/pull/30375) (numeric sort of tiered
   token-cost thresholds), [#30376](https://github.com/BerriAI/litellm/pull/30376) (download &
   base64-encode remote image URLs for `ollama_chat`).
+- **Chroma** — [#7252](https://github.com/chroma-core/chroma/pull/7252): fix order-dependent
+  bool/int homogeneity check in `validate_where` (`$in` / `$nin`).
+- **LlamaIndex** — [#21960](https://github.com/run-llama/llama_index/pull/21960): preserve document
+  id/name and metadata in `VertexAISearchRetriever` structured results.
 
 ---
 
