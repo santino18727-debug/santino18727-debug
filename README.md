@@ -1,0 +1,38 @@
+# Eric — Builder, applied AI 🦇
+
+> Local-first RAG, agents & automation. I ship working systems, not demos.
+
+I build **applied AI** with a bias for **running locally** (privacy, cost, control):
+retrieval-augmented generation, agentic workflows, and the glue that turns them into
+products people actually use. Most of it runs on a single workstation with an
+RTX GPU + Ollama, no cloud bill required.
+
+---
+
+### 🧠 What I work on
+
+- **Local RAG, end to end** — a personal knowledge base ("mybrain") served through a
+  stdlib **MCP server**: `nomic-embed-text` embeddings on Ollama → Qdrant cosine search →
+  sourced top-k chunks. Offline-first, with a keyword-grep fallback when the vector DB is
+  down, and a weekly **recall@5 / MRR** eval harness (golden set + cross-encoder reranking).
+- **Agentic automation** — an "Alfred" concierge stack on **n8n**: LinkedIn / Meta content
+  workflows, Telegram control surface, digest scheduling, webhook integrations.
+- **Flutter apps** — educational games and tools (math practice for kids, a headless
+  game-logic engine ported 1:1 from Rust to Dart with full test parity).
+- **Local AI dev stack** — Ollama + `deepseek-coder-v2` as a manager/worker pattern:
+  premium model designs & reviews, local model does the mechanical code. ~10× cheaper.
+
+### 🔧 Stack
+
+`Python` · `Flutter / Dart` · `n8n` · `Ollama` · `Qdrant` · `Docker` · `MCP` ·
+`FastAPI` · `Tauri (Rust)` · `Bash / PowerShell`
+
+### 🌱 Open source
+
+I contribute where I have real expertise — **RAG, evaluation, local inference tooling**.
+See pinned PRs for the latest. Currently improving evaluation ergonomics in
+the agent/RAG ecosystem.
+
+---
+
+<sub>📍 Switzerland · Open to collaboration on applied-AI / RAG / automation projects.</sub>
