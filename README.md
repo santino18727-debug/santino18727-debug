@@ -34,6 +34,8 @@ I contribute where I have real expertise — **RAG, evaluation, local inference 
 - **DSPy** — [#9912](https://github.com/stanfordnlp/dspy/pull/9912): expose `timeout`/`straggler_limit`
   on `dspy.Evaluate` and harden the parallel straggler-resubmission path for long-running
   evaluations.
+- **DSPy** — [#9913](https://github.com/stanfordnlp/dspy/pull/9913): preserve `media_type` on video
+  content blocks in the OpenAI-format serializer (no more lost MIME on Gemini/Vertex inputs).
 - **LangChain** — [#38131](https://github.com/langchain-ai/langchain/pull/38131): make
   `ChatHuggingFace.with_structured_output` return Pydantic instances (not plain dicts) for
   `json_schema` / `json_mode`, matching the documented behavior.
